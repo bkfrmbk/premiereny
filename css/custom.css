@@ -1,0 +1,22 @@
+/*
+
+1. Add your custom Css styles below
+2. Place the this code in your template:
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+.header-img {
+  max-width: 50%;
+  filter: invert(1);
+  padding: 25px;
+}
+
+.nav-logo {
+  filter: invert(1);
+}
+
+.header-gradient {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 90%);
+}

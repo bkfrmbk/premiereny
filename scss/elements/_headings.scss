@@ -82,16 +82,16 @@
             line-height: 56px;
             margin-bottom: 60px;
 
-            // &:before {
-            //     content: "";
-            //     position: absolute;
-            //     height: 2px;
-            //     width: 100px;
-            //     background-color: $color-theme;
-            //     bottom: -30px;
-            //     left: 0;
-            //     right: 0;
-            // }
+            &:before {
+                content: "";
+                position: absolute;
+                height: 2px;
+                width: 100px;
+                background-color: $color-theme;
+                bottom: -30px;
+                left: 0;
+                right: 0;
+            }
         }
 
         &.text-center {

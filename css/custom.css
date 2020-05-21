@@ -43,3 +43,7 @@ span {
 .portfolio-item {
   padding: 20px;
 }
+
+.press-logo {
+  filter: invert(1);
+}

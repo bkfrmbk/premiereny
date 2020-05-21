@@ -17662,12 +17662,12 @@ body.breakpoint-xl .pricing-table .col-lg-2 .plan-list ul li, body.breakpoint-lg
   width: 100%;
 }
 .testimonial .testimonial-item > img {
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   display: block;
   float: none;
-  height: 72px;
+  /*height: 150px;*/
   margin: 0 auto 10px;
-  width: 72px;
+  width: 150px;
 }
 .testimonial .testimonial-item > p {
   font-size: 15px;

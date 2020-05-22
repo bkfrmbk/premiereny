@@ -12146,9 +12146,9 @@ a.btn:not([href]):not([tabindex]).disabled {
   position: relative;
   font-size: 48px;
   line-height: 56px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
-.heading-text.heading-section h2:before {
+/*.heading-text.heading-section h2:before {
   content: "";
   position: absolute;
   height: 2px;
@@ -12157,7 +12157,7 @@ a.btn:not([href]):not([tabindex]).disabled {
   bottom: -30px;
   left: 0;
   right: 0;
-}
+}*/
 .heading-text.heading-section.text-center h1:before,
 .heading-text.heading-section.text-center h2:before,
 .heading-text.heading-section.text-center h3:before,

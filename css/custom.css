@@ -44,10 +44,6 @@ span {
   padding: 20px;
 }
 
-.press-logo {
-  filter: invert(1);
-}
-
 #what-is {
   text-transform: uppercase;
   font-size: 40px;

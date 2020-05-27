@@ -13,6 +13,7 @@
 	<link href="css/plugins.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -42,10 +43,8 @@
 							<nav>
 								<ul>
 									<li><a href="index.html">About</a></li>
-                  <li><a href="index.html">Groups</a></li>
-                  <li><a href="index.html">Private Events</a></li>
-                  <li><a href="index.html">FAQ</a></li>
-                  <li><a href="index.html">Contact</a></li>
+                  <li><a href="FAQ.html">FAQ</a></li>
+                  <li><a href="contact.html">Contact</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -63,15 +62,50 @@
 				<div class="container-fullscreen">
 					<div class="text-middle text-center text-light">
             <img class="header-img" src="./logos/PREMIERE-LOGO-BLACK.png" alt="The premiere logo">
-						<p class="lead">Star in your own movie. Attend your red carpet premiere!</p>
-						<a class="btn btn-light" href="#">Book Now!</a>
+						<p class="lead">Star in your own movie. Attend your red carpet premiere.</p>
+						<a class="btn btn-light" data-target="#modal-2" data-toggle="modal" href="#">Join the VIP List</a>
 					</div>
-
-
 				</div>
 			</div>
 		</section>
 		<!-- end: SECTION IMAGE FULLSCREEN -->
+
+    <!--Modal small -->
+        <div class="modal fade" id="modal-2" tabindex="-1" role="modal" aria-labelledby="modal-label-2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 id="modal-label-2" class="modal-title">Small Modal</h4>
+                        <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- Begin Mailchimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                <form action="https://thepremiereny.us18.list-manage.com/subscribe/post?u=ea2698e3a9ec4441c01549277&amp;id=a3cbd64510" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll">
+                                  <label for="mce-EMAIL">Join the VIP list to know when tickets go live</label>
+                                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ea2698e3a9ec4441c01549277_a3cbd64510" tabindex="-1" value=""></div>
+                                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn"></div>
+                                    </div>
+                                </form>
+                                </div>
+                                <!--End mc_embed_signup-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="float-left">
+                            <button data-dismiss="modal" class="btn btn-b" type="button">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Modal small -->
 
 		<!-- COMPANY -->
 		<section class="dark">
@@ -81,7 +115,7 @@
 						<div class="heading-text heading-section">
 							<h2 id="what-is">What is the Premiere?</h2>
 							<span class="lead">
-              The Premiere is an immersive cinematic attraction, where people of all ages can star in their own movie and then immediately attend the red carpet premiere of the film they just shot— all in 90 minutes!
+              The Premiere is an immersive cinematic attraction, where people of all ages can star in their own movie and then immediately attend the red carpet premiere of the film they just shot— all in 90 minutes.
               </span>
 						</div>
 					</div>
@@ -101,7 +135,7 @@
 		<!-- end: COMPANY -->
 
     <!-- Photo Boxes -->
-    <section>
+    <section class="background-grey">
       <div class="container">
         <h2 id="what-is" >How it works:</h2>
           <!-- Portfolio: Image Zoom -->
@@ -113,7 +147,6 @@
                   <img src="images/process-photos/marquee.jpg" alt="">
                 </div>
                 <div class="portfolio-description">
-                  <a href="portfolio-page-grid-gallery.html">
                     <h3>Exclusive VIP arrival</h3>
                   </a>
                 </div>
@@ -124,10 +157,9 @@
             <div class="portfolio-item img-zoom revert">
               <div class="portfolio-item-wrap">
                 <div class="portfolio-image">
-                  <a href="portfolio-page-grid-gallery.html"><img src="images/process-photos/green-screen.jpg" alt="">
+                 <img src="images/process-photos/green-screen.jpg" alt="">
                 </div>
                 <div class="portfolio-description">
-                  <a href="portfolio-page-grid-gallery.html">
                     <h3>Star in your own live-action movie</h3>
                 </div>
               </div>
@@ -194,27 +226,27 @@
     <!-- end: Photo Boxes -->
 
     <!-- PRESS QUOTES -->
-    <section class="background-grey">
+    <section class="dark">
       <div class="carousel arrows-visibile testimonial testimonial-single testimonial-blockquote" data-items="1" data-autoplay="true" data-animate-in="fadeIn" data-animate-out="fadeOut" data-loop="true">
-              <!-- Testimonials item -->
-              <div class="testimonial-item">
-                  <p>"A once-in-a-lifetime experience that comes about as close to the real deal as one could imagine."</p>
-                  <img class="press-logo" src="./images/press-logos/forbes-white.png" alt="">
-              </div>
-              <!-- end: Testimonials item-->
-              <!-- Testimonials item -->
-              <div class="testimonial-item">
-                  <p>“Experience all of the most exciting aspects of celebrity life.”</p>
-                  <img class="press-logo" src="./images/press-logos/daily-mail.png" alt="">
-              </div>
-              <!-- end: Testimonials item-->
-              <!-- Testimonials item -->
-              <div class="testimonial-item">
-                  <p>“This is one of the coolest experiences we’ve ever heard of.”</p>
-                  <img class="press-logo" src="./images/press-logos/haute-living.png" alt="">
-              </div>
-              <!-- end: Testimonials item-->
+          <!-- Testimonials item -->
+          <div class="testimonial-item">
+            <p>"A once-in-a-lifetime experience that comes about as close to the real deal as one could imagine."</p>
+            <img class="press-logo" src="./images/press-logos/forbes-white.png" alt="">
           </div>
+          <!-- end: Testimonials item-->
+          <!-- Testimonials item -->
+          <div class="testimonial-item">
+            <p>“Experience all of the most exciting aspects of celebrity life.”</p>
+            <img class="press-logo" src="./images/press-logos/daily-mail.png" alt="">
+          </div>
+          <!-- end: Testimonials item-->
+          <!-- Testimonials item -->
+          <div class="testimonial-item">
+            <p>“This is one of the coolest experiences we’ve ever heard of.”</p>
+            <img class="press-logo" src="./images/press-logos/haute-living.png" alt="">
+          </div>
+          <!-- end: Testimonials item-->
+        </div>
     </section>
     <!-- end: PRESS QUOTES -->
 
@@ -229,7 +261,7 @@
 								<div class="widget-title">The Premiere™</div>
 								<p class="mb-5">Built with love in New York, NY, USA<br>
 									All rights reserved. Copyright © 2020. The Premiere NY.</p>
-								<a href="#" class="btn btn-inverted">Book Now</a>
+								<a href="#" class="btn btn-light">Join the VIP List</a>
 							</div>
 						</div>
 						<div class="col-lg-7">
@@ -240,10 +272,8 @@
 										<div class="widget-title">Pages</div>
 										<ul class="list">
 											<li><a href="#">Home</a></li>
-											<li><a href="#">About</a></li>
-											<li><a href="#">Groups</a></li>
-                      <li><a href="#">Private Events</a></li>
-                      <li><a href="#">FAQ</a></li>
+											<li><a href="#">FAQ</a></li>
+                      <li><a href="#">Contact</a></li>
 										</ul>
 									</div>
 								</div>
@@ -260,8 +290,9 @@
 								</div>
 							</div>
 						</div>
-            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
+            <div class="hidden">
+              Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+            </div>
 
 					</div>
 				</div>

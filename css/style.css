@@ -4533,14 +4533,14 @@ Portfolio
   left: 0;
   margin: 0 auto;
   padding: 20px;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   right: 0;
   text-align: center;
   top: 48%;
   transform: translate3d(0px, -38%, 0px);
   transition: all 250ms ease-in-out 0s;
-  visibility: hidden;
+  /*visibility: hidden;*/
   width: 70%;
   z-index: 3;
 }
@@ -17725,8 +17725,8 @@ body.breakpoint-xl .pricing-table .col-lg-2 .plan-list ul li, body.breakpoint-lg
 }
 .testimonial.testimonial-blockquote .testimonial-item > p {
   font-style: italic;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 40px;
+  line-height: 50px;
   padding: 30px 10px;
 }
 
@@ -17786,7 +17786,7 @@ body.breakpoint-xl .pricing-table .col-lg-2 .plan-list ul li, body.breakpoint-lg
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.06);
   }
   .testimonial.testimonial-single .testimonial-item p {
-    font-size: 14px;
+    font-size: 28px;
   }
 }
 .timeline {

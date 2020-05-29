@@ -122,7 +122,9 @@
 					<div class="col-lg-5">
               <div class="grid-item">
                   <div class="grid-item-wrap">
-                      <div class="grid-image"> <img alt="Image Lightbox" src="images/trailer-screenshot-1.png" /> </div>
+                      <div class="grid-image">
+                        <img alt="Image Lightbox" src="images/film-leader.png" />
+                      </div>
                       <div class="grid-description">
                           <a href="https://vimeo.com/316354301" data-lightbox="iframe"><i class="icon-play"></i></a>
                       </div>
@@ -227,28 +229,42 @@
 
     <!-- PRESS QUOTES -->
     <section class="dark">
+      <div id="particles-stars" class="particles"></div>
+      <div class="container">
       <div class="carousel arrows-visibile testimonial testimonial-single testimonial-blockquote" data-items="1" data-autoplay="true" data-animate-in="fadeIn" data-animate-out="fadeOut" data-loop="true">
           <!-- Testimonials item -->
           <div class="testimonial-item">
-            <p>"A once-in-a-lifetime experience that comes about as close to the real deal as one could imagine."</p>
+            <p class="press-quotes">"A once-in-a-lifetime experience that comes about as close to the real deal as one could imagine."</p>
             <img class="press-logo" src="./images/press-logos/forbes-white.png" alt="">
           </div>
           <!-- end: Testimonials item-->
           <!-- Testimonials item -->
           <div class="testimonial-item">
-            <p>“Experience all of the most exciting aspects of celebrity life.”</p>
+            <p class="press-quotes">“Experience all of the most exciting aspects of celebrity life.”</p>
             <img class="press-logo" src="./images/press-logos/daily-mail.png" alt="">
           </div>
           <!-- end: Testimonials item-->
           <!-- Testimonials item -->
           <div class="testimonial-item">
-            <p>“This is one of the coolest experiences we’ve ever heard of.”</p>
+            <p class="press-quotes">“This is one of the coolest experiences we’ve ever heard of.”</p>
             <img class="press-logo" src="./images/press-logos/haute-living.png" alt="">
           </div>
           <!-- end: Testimonials item-->
         </div>
+      </div>
     </section>
     <!-- end: PRESS QUOTES -->
+
+    <!--Modal bottom-->
+    <div id="modalStripBottom" class="modal-strip modal-bottom">
+        <div class="container">
+            <div class="text-center">
+              Website by <a href="https://bradkorman.co/" target="_blank">Brad Korman</a>
+              <a href="#" data-modal="#modalStripBottom" class="btn-modal">CLOSE</a>
+            </div>
+        </div>
+    </div>
+    <!--End: Modal bottom-->
 
 		<!-- Footer -->
 		<footer id="footer" class="inverted">
@@ -281,19 +297,14 @@
 									<div class="widget">
 										<div class="widget-title">Support</div>
 										<ul class="list">
-											<li><a href="#">Terms of Service</a></li>
-											<li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Attribution</a></li>
-											<li><a href="#">Contact Us</a></li>
+											<li><a href="TOS.html">Terms of Service</a></li>
+											<li><a href="privacy-policy.html">Privacy Policy</a></li>
+                      <li><a href="#" data-modal="#modalStripBottom" class="btn-modal">Attribution</a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
-            <div class="hidden">
-              Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-            </div>
-
 					</div>
 				</div>
 			</div>
@@ -316,6 +327,10 @@
 
 	<!--Template functions-->
 	<script src="js/functions.js"></script>
+  <!-- Partical js base file  -->
+  <script src="plugins/particles/particles.js" type="text/javascript"></script>
+  <!--Particles stars-->
+  <script src="plugins/particles/particles-stars.js" type="text/javascript"></script>
 
 </body>
 

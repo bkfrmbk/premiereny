@@ -1127,7 +1127,6 @@ var INSPIRO = {},
             buttonText = button.html()
           var validation = Array.prototype.filter.call(elem, function (form) {
             form.addEventListener(
-              console.log('test!!!');
               "submit",
               function (event) {
                 if (form[0].checkValidity() === false) {

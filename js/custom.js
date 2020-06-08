@@ -1,8 +1,3 @@
-/* 
-
-1. Add your custom JavaScript code below
-2. Place the this code in your template:
-
-  
-
-*/
+// document.getElementById('submit-form').addEventListener('click', function() {
+//   alert('Thanks!');
+// }, false);

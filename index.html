@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135171855-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135171855-1');
+  </script>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />    <meta name="author" content="Brad Korman" />
 	<meta name="description" content="The Premiere NY is the only experiential attraction that allows you to star in your own movie!">
@@ -13,7 +23,6 @@
 	<link href="css/plugins.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -41,11 +50,9 @@
 						<div class="container">
 							<nav>
 								<ul>
-									<li><a href="index.html">About</a></li>
-                  <li><a href="index.html">Groups</a></li>
-                  <li><a href="index.html">Private Events</a></li>
-                  <li><a href="index.html">FAQ</a></li>
-                  <li><a href="index.html">Contact</a></li>
+									<li><a href="index.html">Home</a></li>
+                  <li><a href="FAQ.html">FAQ</a></li>
+                  <li><a href="contact.html">Contact</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -63,15 +70,52 @@
 				<div class="container-fullscreen">
 					<div class="text-middle text-center text-light">
             <img class="header-img" src="./logos/PREMIERE-LOGO-BLACK.png" alt="The premiere logo">
-						<p class="lead">See Yourself on the Silver Screen</p>
-						<a class="btn btn-light" href="#">Book Now!</a>
+						<p class="lead">The world's most immersive cinematic experience. Coming 2021</p>
+						<a class="btn btn-light" data-target="#modal-2" data-toggle="modal" href="#">Join the VIP List</a>
 					</div>
-
-
 				</div>
 			</div>
 		</section>
 		<!-- end: SECTION IMAGE FULLSCREEN -->
+
+    <!--Modal small -->
+      <div class="modal fade" id="modal-2" tabindex="-1" role="modal" aria-labelledby="modal-label-2" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 id="modal-label-2" class="modal-title">VIP List</h4>
+                      <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <!-- Begin Mailchimp Signup Form -->
+                              <div id="mc_embed_signup">
+                              <form action="https://thepremiereny.us18.list-manage.com/subscribe/post?u=ea2698e3a9ec4441c01549277&amp;id=a3cbd64510" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+                                  <div id="mc_embed_signup_scroll">
+                                <label for="mce-EMAIL">Join the VIP list to know when tickets go live</label>
+                                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ea2698e3a9ec4441c01549277_a3cbd64510" tabindex="-1" value=""></div>
+                                  <div class="clear">
+                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required size="50px">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-dark">
+                                  </div>
+                                  </div>
+                              </form>
+                              </div>
+                              <!--End mc_embed_signup-->
+                          </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                      <div class="float-left">
+                          <button data-dismiss="modal" class="btn btn-dark" type="button">Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <!-- end: Modal small -->
 
 		<!-- COMPANY -->
 		<section class="dark">
@@ -79,111 +123,68 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="heading-text heading-section">
-							<h2>What is the Premiere?</h2>
+							<h2 id="what-is">What is the Premiere?</h2>
 							<span class="lead">
-              The Premiere is the only cinematic experience where you can star in your own movie, perform your own stunts, and attend your red carpet premiere!
-
+              The Premiere is an immersive cinematic attraction, where people of all ages can star in their own movie and then immediately attend the red carpet premiere of the film they just shot— all in 90 minutes.
               </span>
 						</div>
 					</div>
-					<div class="col-lg-6 p-3 border">
-						<img class = "img-responsive shadow-lg" width = "100%" src="./images/audience1.jpeg" alt="">
-					</div>
+					<div class="col-lg-5">
+              <div class="grid-item">
+                  <div class="grid-item-wrap">
+                      <div class="grid-image">
+                        <img alt="Image Lightbox" src="images/film-leader.png" />
+                      </div>
+                      <div class="grid-description">
+                          <a href="https://vimeo.com/316354301" data-lightbox="iframe"><i class="icon-play"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
 				</div>
 			</div>
 		</section>
 		<!-- end: COMPANY -->
 
-    <!-- PRESS QUOTES -->
-    <section class="background-grey">
-      <div class="carousel arrows-visibile testimonial testimonial-single testimonial-blockquote" data-items="1" data-autoplay="true" data-animate-in="fadeIn" data-animate-out="fadeOut" data-loop="true">
-                    <!-- Testimonials item -->
-                    <div class="testimonial-item">
-                        <p>"A once-in-a-lifetime experience that comes about as close to the real deal as one could imagine."</p>
-                        <span>Forbes Magazine</span>
-                    </div>
-                    <!-- end: Testimonials item-->
-                    <!-- Testimonials item -->
-                    <div class="testimonial-item">
-                        <p>“Experience all of the most exciting aspects of celebrity life.”</p>
-                        <span>Daily Mail</span>
-                    </div>
-                    <!-- end: Testimonials item-->
-                    <!-- Testimonials item -->
-                    <div class="testimonial-item">
-                        <p>“This is one of the coolest experiences we’ve ever heard of.”</p>
-                        <span>Haute Living</span>
-                    </div>
-                    <!-- end: Testimonials item-->
-                </div>
-    </section>
-    <!-- end: PRESS QUOTES -->
-
-    <!-- CALL TO ACTION -->
-    <div class="call-to-action call-to-action-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <img src="./images/hollywood-star.png" alt="">
-                </div>
-
-                <div class="col-lg-8">
-                    <h3 class="text-light ">Join the A-List</h3>
-                    <p>Want to experience the premiere with a private group?</p>
-                </div>
-                <div class="col-lg-2">
-                    <a class="btn btn-light btn-outline">Call us now!</a> </div>
-            </div>
-        </div>
-    </div>
-    <!-- end: CALL TO ACTION -->
-
     <!-- Photo Boxes -->
-    <section>
+    <section class="background-grey">
       <div class="container">
+        <h2>How it works:</h2>
           <!-- Portfolio: Image Zoom -->
           <div class="portfolio-3-columns">
             <!-- portfolio item -->
-            <div class="portfolio-item img-zoom">
+            <div class="portfolio-item img-zoom revert">
               <div class="portfolio-item-wrap">
-                <a class="portfolio-item-link" href="portfolio-page-grid-gallery.html"></a>
                 <div class="portfolio-image">
-                  <img src="images/bret-kavanaugh-gsUwEUr61NQ-unsplash.jpg" alt="">
+                  <img src="images/process-photos/marquee2.jpg" alt="">
                 </div>
                 <div class="portfolio-description">
-                  <a href="portfolio-page-grid-gallery.html">
-                    <h3>Arrival & Greeting</h3>
+                    <h3>Exclusive VIP arrival</h3>
                   </a>
                 </div>
               </div>
             </div>
             <!-- end: portfolio item -->
             <!-- portfolio item -->
-            <div class="portfolio-item img-zoom">
+            <div class="portfolio-item img-zoom revert">
               <div class="portfolio-item-wrap">
-                <a class="portfolio-item-link" href="portfolio-page-grid-gallery.html"></a>
                 <div class="portfolio-image">
-                  <a href="portfolio-page-grid-gallery.html"><img src="images/dane-kelly-J4hxSsDZ8Lc-unsplash.jpg" alt=""></a>
+                 <img src="images/process-photos/green-screen.jpg" alt="">
                 </div>
                 <div class="portfolio-description">
-                  <a href="portfolio-page-grid-gallery.html">
-                    <h3>Film in the Green Screen Studio</h3>
-                  </a>
+                    <h3>Star in your own live-action movie</h3>
                 </div>
               </div>
             </div>
             <!-- end: portfolio item -->
             <!-- portfolio item -->
-            <div class="portfolio-item img-zoom">
+            <div class="portfolio-item img-zoom revert">
               <div class="portfolio-item-wrap">
-                <a class="portfolio-item-link" href="portfolio-page-grid-gallery.html"></a>
                 <div class="portfolio-image">
-                  <a href="portfolio-page-grid-gallery.html"><img src="./images/standing-woman-taking-a-pose-wearing-white-dress-1779359.jpg" alt=""></a>
+                  <img src="images/process-photos/red-carpet.jpg" alt="">
                 </div>
                 <div class="portfolio-description">
-                  <a href="portfolio-page-grid-gallery.html">
-                    <h3>Walk the Red Carpet</h3>
-                  </a>
+                  <h3>Walk the Red Carpet</h3>
                 </div>
               </div>
             </div>
@@ -195,46 +196,37 @@
           <!-- Portfolio: Image Zoom -->
           <div class="portfolio-3-columns">
             <!-- portfolio item -->
-            <div class="portfolio-item img-zoom">
+            <div class="portfolio-item img-zoom revert">
               <div class="portfolio-item-wrap">
-                <a class="portfolio-item-link" href="portfolio-page-grid-gallery.html"></a>
                 <div class="portfolio-image">
-                  <img src="images/clem-onojeghuo-WcdlSwAhygc-unsplash.jpg" alt="">
+                  <img src="images/process-photos/paparazzi.jpg" alt="">
                 </div>
                 <div class="portfolio-description">
-                  <a href="portfolio-page-grid-gallery.html">
-                    <h3>Interview with Paparazzi</h3>
-                  </a>
+                  <h3>Get photographed by the paparazzi</h3>
                 </div>
               </div>
             </div>
             <!-- end: portfolio item -->
             <!-- portfolio item -->
-            <div class="portfolio-item img-zoom">
+            <div class="portfolio-item img-zoom revert">
               <div class="portfolio-item-wrap">
-                <a class="portfolio-item-link" href="portfolio-page-grid-gallery.html"></a>
                 <div class="portfolio-image">
-                  <a href="portfolio-page-grid-gallery.html"><img class="img-responsive" src="images/food-snack-popcorn-movie-theater-33129.jpg" alt=""></a>
+                  <img class="img-responsive" src="images/process-photos/audience.jpg" alt="">
                 </div>
                 <div class="portfolio-description">
-                  <a href="portfolio-page-grid-gallery.html">
-                    <h3>Get your Popcorn</h3>
-                  </a>
+                  <h3>Watch yourself on the big screen</h3>
                 </div>
               </div>
             </div>
             <!-- end: portfolio item -->
             <!-- portfolio item -->
-            <div class="portfolio-item img-zoom">
+            <div class="portfolio-item img-zoom revert">
               <div class="portfolio-item-wrap">
-                <a class="portfolio-item-link" href="portfolio-page-grid-gallery.html"></a>
                 <div class="portfolio-image">
-                  <a href="portfolio-page-grid-gallery.html"><img src="./images/krists-luhaers-AtPWnYNDJnM-unsplash.jpg" alt=""></a>
+                  <img src="./images/process-photos/award.jpg" alt="">
                 </div>
                 <div class="portfolio-description">
-                  <a href="portfolio-page-grid-gallery.html">
-                    <h3>Watch YOUR movie</h3>
-                  </a>
+                  <h3>Accept your award</h3>
                 </div>
               </div>
             </div>
@@ -244,6 +236,47 @@
       </div>
     </section>
     <!-- end: Photo Boxes -->
+
+    <!-- PRESS QUOTES -->
+    <section class="dark">
+      <div id="particles-stars" class="particles"></div>
+      <div class="container">
+      <div class="carousel arrows-visibile testimonial testimonial-single testimonial-blockquote" data-items="1" data-autoplay="true" data-animate-in="fadeIn" data-animate-out="fadeOut" data-loop="true">
+          <!-- Testimonials item -->
+          <div class="testimonial-item">
+            <p class="press-quotes">"A once-in-a-lifetime experience that comes about as close to the real deal as one could imagine."</p>
+            <img class="press-logo" src="./images/press-logos/forbes-white.png" alt="">
+          </div>
+          <!-- end: Testimonials item-->
+          <!-- Testimonials item -->
+          <div class="testimonial-item">
+            <p class="press-quotes">“Experience all of the most exciting aspects of celebrity life.”</p>
+            <img class="press-logo" src="./images/press-logos/daily-mail.png" alt="">
+          </div>
+          <!-- end: Testimonials item-->
+          <!-- Testimonials item -->
+          <div class="testimonial-item">
+            <p class="press-quotes">“This is one of the coolest experiences we’ve ever heard of.”</p>
+            <img class="press-logo" src="./images/press-logos/haute-living.png" alt="">
+          </div>
+          <!-- end: Testimonials item-->
+        </div>
+      </div>
+    </section>
+    <!-- end: PRESS QUOTES -->
+
+    <!--Modal bottom-->
+    <div id="modalStripBottom" class="modal-strip modal-bottom">
+        <div class="container">
+            <div class="text-center">
+              Website by <a href="https://bradkorman.co/" target="_blank">Brad Korman</a>
+            </div>
+            <div class="right">
+              <a href="#" data-modal="#modalStripBottom" class="btn-modal"><i class="fas fa-times-circle"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--End: Modal bottom-->
 
 		<!-- Footer -->
 		<footer id="footer" class="inverted">
@@ -256,7 +289,7 @@
 								<div class="widget-title">The Premiere™</div>
 								<p class="mb-5">Built with love in New York, NY, USA<br>
 									All rights reserved. Copyright © 2020. The Premiere NY.</p>
-								<a href="#" class="btn btn-inverted">Book Now</a>
+								<a href="#" class="btn btn-light" data-target="#modal-2" data-toggle="modal">Join the VIP List</a>
 							</div>
 						</div>
 						<div class="col-lg-7">
@@ -266,11 +299,9 @@
 									<div class="widget">
 										<div class="widget-title">Pages</div>
 										<ul class="list">
-											<li><a href="#">Home</a></li>
-											<li><a href="#">About</a></li>
-											<li><a href="#">Groups</a></li>
-                      <li><a href="#">Private Events</a></li>
-                      <li><a href="#">FAQ</a></li>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="FAQ.html">FAQ</a></li>
+                      <li><a href="contact.html">Contact</a></li>
 										</ul>
 									</div>
 								</div>
@@ -278,18 +309,14 @@
 									<div class="widget">
 										<div class="widget-title">Support</div>
 										<ul class="list">
-											<li><a href="#">Terms of Service</a></li>
-											<li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Attribution</a></li>
-											<li><a href="#">Contact Us</a></li>
+											<li><a href="TOS.html">Terms of Service</a></li>
+											<li><a href="privacy-policy.html">Privacy Policy</a></li>
+                      <li><a href="#" data-modal="#modalStripBottom" class="btn-modal">Attribution</a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
-            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-
-
 					</div>
 				</div>
 			</div>
@@ -312,6 +339,10 @@
 
 	<!--Template functions-->
 	<script src="js/functions.js"></script>
+  <!-- Partical js base file  -->
+  <script src="plugins/particles/particles.js" type="text/javascript"></script>
+  <!--Particles stars-->
+  <script src="plugins/particles/particles-stars.js" type="text/javascript"></script>
 
 </body>
 

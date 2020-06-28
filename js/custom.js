@@ -6,6 +6,7 @@ window.addEventListener("DOMContentLoaded", function() {
   var form = document.getElementById("my-form");
   var button = document.getElementById("my-form-button");
   var status = document.getElementById("my-form-status");
+  var honeyPot = document.getElementById('test')
 
   // Success and Error functions for after the form is submitted
 
@@ -23,8 +24,12 @@ window.addEventListener("DOMContentLoaded", function() {
 
   form.addEventListener("submit", function(ev) {
     ev.preventDefault();
-    var data = new FormData(form);
-    ajax(form.method, form.action, data, success, error);
+    if(honeyPot.value.length == 0) {
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    } else {
+      error();
+    };
   });
 });
 
